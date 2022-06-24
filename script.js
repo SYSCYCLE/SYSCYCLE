@@ -6,4 +6,4 @@ document.getElementById('mode-btn').addEventListener('click', () => {
 if (localStorage.getItem('mode') != ''){
 	document.body.classList.add(localStorage.getItem('mode'));
 	document.getElementById('mode-btn').checked = true;
-}
+};
